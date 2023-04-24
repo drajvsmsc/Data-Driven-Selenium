@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<listeners>
+    <listener class-name="com.framework1.TestComponents.Listners"></listener>
+</listeners>
+    <test verbose="2" preserve-order="true" name="D:/chrome downloads/selenium_career_pro/src/test">
+        
+        <classes>
+            <class name="com.framework1.Test1">
+                <methods>
+                    <include name="SubmitOrder"/>
+                </methods>
+            </class>
+<!--            <class name="com.testng1.demo">-->
+<!--                <methods>-->
+<!--                    <include name="tert0"/>-->
+<!--                    <include name="tert54"/>-->
+<!--                    <include name="tert75"/>-->
+<!--                    <include name="tert97"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.testng1.demo2">-->
+<!--                <methods>-->
+<!--                    <include name="srt4"/>-->
+<!--                    <include name="srt3"/>-->
+<!--                    <include name="srt2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
